@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Crear formulario</legend>
+        <form action="registrado.html">
+        <label><input type="checkbox" name="terminos_y_condiciones" value="acepto">acepto los terminos y condiciones</label>
+        <br>
+        <label for="form-login">Cuenta de inicio de sesion</label>
+        <input type="text" name="login" id="form-login" maxlength="10" value="ejem: lucas@gmail.com"> <! El maxlength sirve para restringir la cantidad de caracteres que puedes anadir -->
+        </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>botones</legend>
+        <textarea name="instrucciones" rows="4" cols="20" maxlength="200">Maximo 200 caracteres</textarea>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+        </fieldset>
+        <br>
+        <label for="form-password"> Contrasena: </label>
+        <br>
+        <input type="password" name="password" minlength="8" maxlength="12" id="form-password">
+        <label>Buscar</label>
+        <input type="search"><br>
+       <P> Musica de CAMILA CABELLO: <input type="text" list="listacanciones" name="tipocanciones"></P>
+	<datalist id= "listacanciones">
+	<option value="Celia">
+	<option value="Hasta los Dientes">
+	<option value="Don't Go Yet">
+	<option value="Havana">
+	<option value="Easy">
+	<option value="Only told the moon">
+	<option value="Consecuenses">
+	<option value="First Man">
+	<option value="This Love">
+	<option value="Never Be The Same">
+	</datalist>
+<p>Colaboraciones:</p>
+<ol>
+<li><input type ="radio" name= "Colaboraciones"	value= "Maria Becerra" Checked> Maria Becerra </li>
+<li><input type ="radio" name= "Colaboraciones"	value= "Shawn Mendez" Checked> Shawn Mendez </li>
+<li><input type ="radio" name= "Colaboraciones"	value= "Alejandro Sanz" Checked> Alejandro Sanz </li>
+<li><input type ="radio" name= "Colaboraciones"	value= "Young Thug" Checked> Young Thug </li>
+</ol>
+
+<p>Que canciones son del album Familia</p>
+<ul type="none">
+<li><input type="checkbox" name= "album" value= "Celia" checked> Celia </li>
+<li><input type="checkbox" name= "album" value= "Familia" checked> Familia </li>
+<li><input type="checkbox" name= "album" value= "Psychofreak" checked> Psychofreak </li>
+<li><input type="checkbox" name= "album" value= "Bam Bam" checked> Bam Bam </li>
+<li><input type="checkbox" name= "album" value= "La buena vida" checked> La buena vida </li>
+<li><input type="checkbox" name= "album" value= "Quiet" checked> Quiet </li>
+<li><input type="checkbox" name= "album" value= "Boys don't cry" checked> Boys don't cry </li>
+<li><input type="checkbox" name= "album" value= "Lola" checked> Lola </li>
+<li><input type="checkbox" name= "album" value= "hasta los dientes" checked> hasta los dientes </li>
+<li><input type="checkbox" name= "album" value= "No doubt" checked> No doubt </li> 
+<li><input type="checkbox" name= "album" value= "Everyone at this party" checked> Everyone at this party "</li>
+</ul>
+
+<select name= "sabor" size="7" multiple">
+<optgroup label="Tradicional">
+	<option>Vainilla</option>
+	<option>Chocolate</option>
+</optgroup>
+<optgroup label="VIP">
+	<option>Choco almendras</option>
+	<option>Frutos silvestres</option>
+	<option>Baylis</option>
+</optgroup>
+</select>
+
+<input type = "data" name = "name" value = "2022-10-07">
+
+<input type = "time" name = "name" value = "03:13:00">
+
+<input type = "datetime-local" name = "name" value = "2022-10-07T03: 13: 00">
+
+    </body>
+</html>
